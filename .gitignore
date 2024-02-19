@@ -1,0 +1,28 @@
+# Compiled object files
+*.o
+
+# Executable files
+*.exe
+*.out
+
+# Compiled libraries
+*.a
+*.lib
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Build output directory
+build/
+
+# Dependency files
+dependencies/
+
+# Debug files
+debug/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

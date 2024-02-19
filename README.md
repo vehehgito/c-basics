@@ -1,6 +1,6 @@
 # c-basics
 
-## Trying to refresh my own C lang basics.
+## Random trivia that might come in handy
 
 There are **4 stages** to the compilation process:
 1. Preprocessing (performed by the Preprocessor)
@@ -40,3 +40,55 @@ Specifying several *.o files can be done by specifying the files along with any 
 ```shell
  $ clang hello.o hello2.o hello3.o -lmath
 ```
+
+---
+
+*An operation between an integer and real always yields a real result. In this operation, the integer is first promoted to a real and then the operation is performed. Hence, the result is real.*
+
+---
+
+### Hierarchy of operations
+
+| Description | Operators | Associativity |
+| --- | :---: | --- |
+| Function Expression | ( ) | Left to right |
+| Array Expression | [ ]| Left to right |
+| Structure Operator | -> | Left to right |
+| Structure Operator | . | Left to right |
+| Unary Minus | - | Right to left |
+| Increment/Decrement | ++ , -- | Right to left |
+| One's Complement | ~ | Right to left |
+| Negation | ! | Right to left |
+| Address of | & | Right to left |
+| Value of Address | * | Right to left |
+| Type cast | { type } | Right to left |
+| Size in bytes | sizeof | Right to left |
+| Multiplication | * | Left to right |
+| Division | / | Left to right |
+| Modulus | % | Left to right |
+| Addition | + | Left to right |
+| Subtraction | - | Left to right |
+| Left shift | << | Left to right |
+| Right shift | >> | Left to right |
+| Less than | < | Left to right |
+| Less than equal to | <= | Left to right |
+| Greater than | > | Left to right |
+| Greater than equal to | >= | Left to right |
+| Equal to | == | Left to right |
+| Not equal to | != | Left to right |
+| Bitwise AND | & | Left to right |
+| Bitwise exclusive OR | ^ | Left to right |
+| Bitwise inclusive OR | \| | Left to right |
+| Logical AND | && | Left to right |
+| Logical OR | \| \| | Left to right |
+| Conditional | ?: | Right to left |
+| | = | Right to left |
+| | *= /= %=| Right to left |
+| Assignment | += -= &=| Right to left |
+| | ^= \|=| Right to left |
+| | <<= >>= | Right to left |
+| Comma | , | Right to left |
+
+
+---
+
