@@ -1,5 +1,13 @@
 # c-basics
 
+## List of programs included in this repository
+1. Simple Interest Calculator 
+2. Program to calculate minimum notes required of given denominations to constitute the input amount
+3. Program to check if input character is a uppercase, lower letter, number or a special character
+4. Program to convert input RGB values into CMYK
+
+---
+
 ## Random trivia that might come in handy
 
 There are **4 stages** to the compilation process:
@@ -92,3 +100,24 @@ Specifying several *.o files can be done by specifying the files along with any 
 
 ---
 
+### Ternary Operator
+
+The conditional operator in C is kind of similar to the if-else statement as it follows the same algorithm as of if-else statement but the conditional operator takes less space and helps to write the if-else statements in the shortest way possible. Its syntax is as follows:
+
+```c
+(condition) ? (variable = Expression2) : (variable = Expression3);
+```
+
+It can be visualised as:
+
+```c
+if(Expression1){
+    variable = Expression2;
+}
+
+else{
+    variable = Expression3;
+}
+```
+
+---
